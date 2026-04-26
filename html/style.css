@@ -7,16 +7,29 @@ body {
 	margin: 0 auto;
 	font-family: "Adwaita Sans", Helvetica, Arial, sans-serif;
 	font-size: 2em;
-
 }
 
+/* list styling and adaptivity */
 li {
 	margin: 25px;
 }
 
 ul {
 	list-style: "> ";
+	columns: 3;
+}
+
+@media (max-width: 35em) {
+	ul {
+	list-style: "> ";
 	columns: 2;
+    }
+}
+
+@media (max-width: 20em) {
+	ul {
+		columns: 1;
+	}
 }
 
 /* link styling */

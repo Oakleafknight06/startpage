@@ -9,6 +9,13 @@ body {
 	padding-left: 5em;
 }
 
+/* add left padding for non-mobile screens */
+@media screen and (width >= 400) {
+	body {
+		padding-left: 5em;
+	}
+}
+
 /* list styling and adaptivity */
 li {
 	margin: 25px;

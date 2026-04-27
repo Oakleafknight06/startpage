@@ -3,10 +3,10 @@ html {
 }
 
 body {
-	width: 35em;
 	margin: 0 auto;
 	font-family: "Adwaita Sans", Helvetica, Arial, sans-serif;
 	font-size: 2em;
+	padding-left: 5em;
 }
 
 /* list styling and adaptivity */

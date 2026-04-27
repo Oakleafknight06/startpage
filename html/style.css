@@ -22,7 +22,7 @@ ul {
 @media screen and (width <= 90em) {
 	ul {
 		columns: 2;
-	{ 
+	} 
 }
 
 @media screen and (width <= 60em) {

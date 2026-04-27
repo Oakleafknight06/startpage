@@ -19,14 +19,13 @@ ul {
 	columns: 3;
 }
 
-@media (max-width: 35em) {
+@media screen and (width <= 90em) {
 	ul {
-	list-style: "> ";
-	columns: 2;
-    }
+		columns: 2;
+	{ 
 }
 
-@media (max-width: 20em) {
+@media screen and (width <= 60em) {
 	ul {
 		columns: 1;
 	}

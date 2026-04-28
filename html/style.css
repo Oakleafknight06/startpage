@@ -9,7 +9,7 @@ body {
 }
 
 /* add left padding for non-mobile screens */
-@media screen and (width >= 400) {
+@media screen and (width >= 400px) {
 	body {
 		padding-left: 5em;
 	}
